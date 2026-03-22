@@ -1,2 +1,5 @@
 const Validator = require('./Validator');
-module.exports = Validator;
+
+
+const validator = new Validator();
+console.log(validator.validateUsername('test'));

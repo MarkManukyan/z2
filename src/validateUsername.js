@@ -10,6 +10,7 @@ function validateUsername(username) {
 
   const usernameRegex = /^[a-zA-Z0-9](?!.*[-_]{2})[a-zA-Z0-9_-]*[a-zA-Z0-9]$/;
 
+
   return usernameRegex.test(username);
 }
 

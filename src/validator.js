@@ -1,7 +1,7 @@
 class Validator {
   validateUsername(username) {
-    // Здесь будет логика валидации
-    return true; // Временное значение
+    const validator = require('../src/validateUsername');
+    return validator(username);
   }
 }
 
